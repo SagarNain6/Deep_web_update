@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="About SPPL - Learn about our history, vision, mission, and leadership in heavy engineering and shipbuilding.">
+    <title>About Us | SPPL</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Topbar -->
+    <div class="header-top d-none d-lg-block">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <span class="me-3"><i class="fas fa-envelope text-orange me-2"></i> info@sppl.com</span>
+                    <span><i class="fas fa-phone-alt text-orange me-2"></i> +91 98765 43210</span>
+                </div>
+                <div class="col-md-6 text-end">
+                    <a href="careers.html" class="me-3">Careers</a>
+                    <a href="media.html" class="me-3">Media</a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" class="ms-2"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-xl navbar-light sticky-top">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="index.html">
+                <img src="images/logo/logo.webp" alt="SPPL Logo" height="40" class="me-2">
+                <span class="navbar-brand-text">
+                    <span class="d-block">Suryadipta Projects</span>
+                    <span class="d-block">Private Limited</span>
+                </span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-xl-center">
+                    <li class="nav-item"><a class="nav-link " href="index.html">Home</a></li>
+
+                    <!-- Corporate -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" href="about.html" id="aboutDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">About Us</a>
+                        <ul class="dropdown-menu" aria-labelledby="aboutDropdown">
+                            <li><a class="dropdown-item dropdown-overview" href="about.html"><i class="fas fa-building me-2"></i>About Overview</a></li>
+                            <li><hr class="dropdown-divider my-1"></li>
+                            <li><a class="dropdown-item" href="about.html#director-profile">Director Profile</a></li>
+                            <li><a class="dropdown-item" href="about.html#sppl-journey">SPPL Journey</a></li>
+                            <li><a class="dropdown-item" href="about.html#order-book">Current Order Book</a></li>
+                            <li><hr class="dropdown-divider my-1"></li>
+                            <li><a class="dropdown-item" href="quality.html">Quality & Safety</a></li>
+                            <li><a class="dropdown-item" href="media.html">Media Room</a></li>
+                            <li><a class="dropdown-item" href="careers.html">Careers</a></li>
+                        </ul>
+                    </li>
+
+                    <!-- Infrastructure -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle " href="infrastructure.html" id="infraDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">Infrastructure</a>
+                        <ul class="dropdown-menu" aria-labelledby="infraDropdown">
+                            <li><a class="dropdown-item dropdown-overview" href="infrastructure.html"><i class="fas fa-industry me-2"></i>Infra Overview</a></li>
+                            <li><hr class="dropdown-divider my-1"></li>
+                            <li><a class="dropdown-item" href="infrastructure.html#shipyard">Shipyard</a></li>
+                            <li><a class="dropdown-item" href="infrastructure.html#heavy-fabrication-yard">Heavy Fabrication Yard</a></li>
+                            <li><a class="dropdown-item" href="infrastructure.html#future-expansion">Future Expansion</a></li>
+                        </ul>
+                    </li>
+
+                    <!-- Shipbuilding -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle " href="shipbuilding.html" id="shipbuildingDropdown"
+                            role="button" data-bs-toggle="dropdown" aria-expanded="false">Shipbuilding</a>
+                        <ul class="dropdown-menu" aria-labelledby="shipbuildingDropdown">
+                            <li><a class="dropdown-item dropdown-overview" href="shipbuilding.html"><i class="fas fa-ship me-2"></i>Shipbuilding Overview</a></li>
+                            <li><hr class="dropdown-divider my-1"></li>
+                            <li><a class="dropdown-item" href="shipbuilding.html#defence">Defence Vessels</a></li>
+                            <li><a class="dropdown-item" href="shipbuilding.html#commercial">Commercial Vessels</a></li>
+                        </ul>
+                    </li>
+
+                    <!-- Heavy Engineering -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle " href="heavy-engineering.html" id="heavyEngDropdown"
+                            role="button" data-bs-toggle="dropdown" aria-expanded="false">Heavy Engineering</a>
+                        <ul class="dropdown-menu" aria-labelledby="heavyEngDropdown">
+                            <li><a class="dropdown-item dropdown-overview" href="heavy-engineering.html"><i class="fas fa-cogs me-2"></i>Heavy Eng. Overview</a></li>
+                            <li><hr class="dropdown-divider my-1"></li>
+                            <li><a class="dropdown-item" href="heavy-engineering.html#heavy-fabrication">Heavy Fabrication</a></li>
+                            <li><a class="dropdown-item" href="heavy-engineering.html#offshore-fabrication">Offshore Fabrication</a></li>
+                            <li><a class="dropdown-item" href="heavy-engineering.html#tanks-vessels">Tanks &amp; Vessels</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item"><a class="nav-link " href="projects.html">Project Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link " href="contact.html">Reach Us</a></li>
+                </ul>
+                <a href="contact.html" class="btn btn-primary-custom ms-xl-3 d-none d-xl-inline-flex">Inquire Now</a>
+                <div class="mobile-inquire-btn">
+                    <a href="contact.html" class="btn btn-primary-custom w-100">Inquire Now <i class="fas fa-arrow-right ms-2"></i></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header bg-navy text-white text-center py-5" style="background-color: var(--c-navy-blue);">
+        <div class="container py-5">
+            <h1 class="display-4 fw-bold text-white">About SPPL</h1>
+            <p class="lead">Pioneering Engineering Excellence in India and Beyond</p>
+        </div>
+    </section>
+
+    <!-- Overview Section -->
+    <section class="section-padding">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <h2 class="section-title">Company Overview</h2>
+                    <p class="mt-4 lead">Suryadipta Projects Pvt. Ltd. (SPPL) is a premier engineering corporation
+                        headquartered in India.</p>
+                    <p class="text-secondary">Established over two decades ago, SPPL has grown from a specialized
+                        fabrication unit into a massive conglomerate encompassing shipbuilding, offshore engineering,
+                        heavy structural manufacturing, and turnkey EPC projects. We are recognized by the Government of
+                        India and major classification societies globally for our uncompromising commitment to quality
+                        and safety.</p>
+                    <p class="text-secondary">Our sprawling manufacturing and shipyard facilities are equipped with
+                        state-of-the-art machinery, allowing us to execute complex projects for the Indian Navy, Coast
+                        Guard, Oil & Gas majors, and heavy industries worldwide.</p>
+                </div>
+                <div class="col-lg-6 mt-4 mt-lg-0" data-aos="fade-left">
+                    <img src="images/about us/About Us.webp" alt="Corporate Overview" loading="lazy" decoding="async"
+                        class="img-fluid rounded shadow-lg">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Vision & Mission -->
+    <section class="section-padding bg-light">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md-6" data-aos="fade-up">
+                    <div class="card border-0 shadow-lg h-100 p-4" style="background-color: var(--c-navy-blue); border-radius: 20px;">
+                        <div class="card-body">
+                            <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4 shadow"
+                                style="width: 70px; height: 70px; font-size: 30px;">
+                                <i class="fas fa-eye" style="color: var(--c-industrial-orange);"></i>
+                            </div>
+                            <h3 class="card-title text-white fw-bold">Our Vision</h3>
+                            <p class="card-text mt-3" style="color: var(--c-steel-grey-light); font-size: 1.05rem; line-height: 1.7;">To be a globally recognized leader in heavy engineering
+                                and maritime manufacturing, driven by innovation, technological superiority, and
+                                sustainable practices, setting the benchmark for excellence in the industry.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6" data-aos="fade-up" data-aos-delay="50">
+                    <div class="card border-0 shadow-lg h-100 p-4" style="background-color: var(--c-navy-blue); border-radius: 20px;">
+                        <div class="card-body">
+                            <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4 shadow"
+                                style="width: 70px; height: 70px; font-size: 30px;">
+                                <i class="fas fa-bullseye" style="color: var(--c-industrial-orange);"></i>
+                            </div>
+                            <h3 class="card-title text-white fw-bold">Our Mission</h3>
+                            <p class="card-text mt-3" style="color: var(--c-steel-grey-light); font-size: 1.05rem; line-height: 1.7;">To consistently deliver world-class products and
+                                solutions that exceed client expectations through engineering precision, strict
+                                adherence to quality and safety standards, and continuous capability enhancement.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Core Values -->
+    <section class="section-padding bg-light">
+        <div class="container text-center">
+            <h2 class="section-title mb-5" data-aos="fade-up">Our Core Values</h2>
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6" data-aos="fade-up">
+                    <div class="p-4 bg-white rounded-4 shadow-sm h-100 hover-lift">
+                        <i class="fas fa-shield-alt mb-4" style="font-size: 3rem; color: var(--c-golden-yellow);"></i>
+                        <h4 class="fw-bold mb-3 text-navy">Integrity</h4>
+                        <p class="text-secondary mb-0" style="font-size: 0.95rem;">Uncompromising ethics and
+                            transparency in all our operations.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="50">
+                    <div class="p-4 bg-white rounded-4 shadow-sm h-100 hover-lift">
+                        <i class="fas fa-cogs mb-4" style="font-size: 3rem; color: var(--c-golden-yellow);"></i>
+                        <h4 class="fw-bold mb-3 text-navy">Excellence</h4>
+                        <p class="text-secondary mb-0" style="font-size: 0.95rem;">Striving for perfection in every weld
+                            and every design.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="p-4 bg-white rounded-4 shadow-sm h-100 hover-lift">
+                        <i class="fas fa-leaf mb-4" style="font-size: 3rem; color: var(--c-golden-yellow);"></i>
+                        <h4 class="fw-bold mb-3 text-navy">Sustainability</h4>
+                        <p class="text-secondary mb-0" style="font-size: 0.95rem;">Commitment to environmentally
+                            responsible manufacturing.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="150">
+                    <div class="p-4 bg-white rounded-4 shadow-sm h-100 hover-lift">
+                        <i class="fas fa-hard-hat mb-4" style="font-size: 3rem; color: var(--c-golden-yellow);"></i>
+                        <h4 class="fw-bold mb-3 text-navy">Safety</h4>
+                        <p class="text-secondary mb-0" style="font-size: 0.95rem;">Zero-harm culture prioritizing the
+                            well-being of our workforce.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <!-- SPPL Journey -->
+    <section class="section-padding" id="sppl-journey"
+        style="background-color: var(--c-navy-blue); color: white; overflow: hidden;">
+        <div class="container">
+            <div class="mb-5 text-center" data-aos="fade-up">
+                <h2 class="fw-bold m-0" style="color: white; display: inline-block;">
+                    The SPPL Journey
+                    <div
+                        style="width: 60px; height: 4px; background-color: var(--c-golden-yellow); margin: 15px auto 0;">
+                    </div>
+                </h2>
+                <p class="mt-3" style="color: var(--c-steel-grey-light); font-size: 1.125rem;">Milestones of our growth
+                    and excellence</p>
+            </div>
+
+            <div class="row timeline-row mt-5 pt-4">
+
+                <div class="col-md-3 text-center timeline-col mb-5 mb-md-0" data-aos="fade-up">
+                    <div class="d-flex mx-auto align-items-center justify-content-center rounded-circle mb-4"
+                        style="width: 50px; height: 50px; background-color: transparent; border: 2px solid var(--c-golden-yellow); position: relative; z-index: 2;">
+                        <div class="rounded-circle"
+                            style="width: 16px; height: 16px; background-color: var(--c-golden-yellow);"></div>
+                    </div>
+                    <h2 class="fw-bold mb-3" style="color: var(--c-golden-yellow); font-size: 2.5rem;">1986</h2>
+                    <p class="fw-bold text-white mb-2" style="font-size: 1.1rem;">Heavy Engineering</p>
+                    <p style="color: rgba(255,255,255,0.7); font-size: 0.95rem; max-width: 220px; margin: 0 auto;">
+                        Founded as a heavy engineering and equipment fabrication enterprise.</p>
+                </div>
+
+                <div class="col-md-3 text-center timeline-col mb-5 mb-md-0" data-aos="fade-up" data-aos-delay="50">
+                    <div class="d-flex mx-auto align-items-center justify-content-center rounded-circle mb-4"
+                        style="width: 50px; height: 50px; background-color: transparent; border: 2px solid var(--c-golden-yellow); position: relative; z-index: 2;">
+                        <div class="rounded-circle"
+                            style="width: 16px; height: 16px; background-color: var(--c-golden-yellow);"></div>
+                    </div>
+                    <h2 class="fw-bold mb-3" style="color: var(--c-golden-yellow); font-size: 2.5rem;">2009</h2>
+                    <p class="fw-bold text-white mb-2" style="font-size: 1.1rem;">Shipyard Acquisition</p>
+                    <p style="color: rgba(255,255,255,0.7); font-size: 0.95rem; max-width: 220px; margin: 0 auto;">
+                        Moved to new waterfront land for future shipyard and offshore production.</p>
+                </div>
+
+                <div class="col-md-3 text-center timeline-col mb-5 mb-md-0" data-aos="fade-up" data-aos-delay="100">
+                    <div class="d-flex mx-auto align-items-center justify-content-center rounded-circle mb-4"
+                        style="width: 50px; height: 50px; background-color: transparent; border: 2px solid var(--c-golden-yellow); position: relative; z-index: 2;">
+                        <div class="rounded-circle"
+                            style="width: 16px; height: 16px; background-color: var(--c-golden-yellow);"></div>
+                    </div>
+                    <h2 class="fw-bold mb-3" style="color: var(--c-golden-yellow); font-size: 2.5rem;">2012</h2>
+                    <p class="fw-bold text-white mb-2" style="font-size: 1.1rem;">Shipbuilding Expansion</p>
+                    <p style="color: rgba(255,255,255,0.7); font-size: 0.95rem; max-width: 220px; margin: 0 auto;">
+                        Established dedicated waterfront shipyard facility and commenced turnkey shipbuilding.</p>
+                </div>
+
+                <div class="col-md-3 text-center timeline-col" data-aos="fade-up" data-aos-delay="150">
+                    <div class="d-flex mx-auto align-items-center justify-content-center rounded-circle mb-4"
+                        style="width: 50px; height: 50px; background-color: transparent; border: 2px solid var(--c-golden-yellow); position: relative; z-index: 2;">
+                        <div class="rounded-circle"
+                            style="width: 16px; height: 16px; background-color: var(--c-golden-yellow);"></div>
+                    </div>
+                    <h2 class="fw-bold mb-3" style="color: var(--c-golden-yellow); font-size: 2.5rem;">2021</h2>
+                    <p class="fw-bold text-white mb-2" style="font-size: 1.1rem;">Naval Defence Landmark</p>
+                    <p style="color: rgba(255,255,255,0.7); font-size: 0.95rem; max-width: 220px; margin: 0 auto;">
+                        Secured landmark defense orders for the Indian Navy, delivering specialized naval vessels.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Current Order Book Section (Modern Enterprise Theme) -->
+    <section class="section-padding order-book-section" id="order-book">
+        <div class="container">
+            <!-- Header -->
+            <div class="text-center mb-5" data-aos="fade-up">
+                <h2 class="section-title mb-3">Current Order Book</h2>
+                <p class="text-secondary max-w-700 mx-auto" style="font-size: 1.05rem;">
+                    Active manufacturing contracts and strategic order book currently underway across our deepwater shipyard and heavy engineering fabrication bays.
+                </p>
+            </div>
+
+            <!-- Interactive Category Filter Navigation -->
+            <div class="order-filter-nav mb-5" data-aos="fade-up" data-aos-delay="50">
+                <button type="button" class="order-filter-btn active" data-order-filter="all">
+                    <i class="fas fa-border-all me-1"></i> All Active Contracts <span class="badge">9</span>
+                </button>
+                <button type="button" class="order-filter-btn" data-order-filter="shipbuilding">
+                    <i class="fas fa-ship me-1"></i> Shipbuilding &amp; Marine <span class="badge">4</span>
+                </button>
+                <button type="button" class="order-filter-btn" data-order-filter="heavy-eng">
+                    <i class="fas fa-industry me-1"></i> Heavy Engineering &amp; Offshore <span class="badge">5</span>
+                </button>
+            </div>
+
+            <!-- Order Cards Grid -->
+            <div class="row g-4" id="orderBookGrid">
+                
+                <!-- Item 1: Steel/Pipe Barge — 4 Nos. — Navy -->
+                <div class="col-lg-4 col-md-6 order-card-col" data-sector="shipbuilding" data-aos="fade-up">
+                    <div class="order-simple-card h-100 p-4">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <span class="badge bg-primary-subtle text-primary border border-primary-subtle px-2 py-1 rounded-pill" style="font-size: 0.78rem;">
+                                <i class="fas fa-ship me-1"></i> Shipbuilding
+                            </span>
+                            <span class="badge bg-warning text-dark fw-bold px-3 py-1 rounded-pill" style="font-size: 0.85rem;">4 Nos.</span>
+                        </div>
+                        <div class="order-icon-wrap">
+                            <i class="fas fa-ship fa-2x"></i>
+                        </div>
+                        <h4 class="fw-bold text-navy mb-1" style="font-size: 1.25rem;">Steel / Pipe Barge</h4>
+                        <div class="text-orange fw-bold mb-3" style="font-size: 0.95rem;">
+                            <i class="fas fa-building-columns me-1"></i> Indian Navy
+                        </div>
+                        <p class="text-secondary mb-3" style="font-size: 0.9rem; line-height: 1.6;">
+                            Specialized naval support and sullage / pipe carriage barges built under IRS naval classification for fleet maintenance.
+                        </p>
+                        <div class="mt-auto pt-3 border-top d-flex justify-content-between align-items-center text-muted small">
+                            <span class="text-success fw-semibold"><i class="fas fa-circle-notch fa-spin me-1"></i> In Fabrication</span>
+                            <span>IRS Naval Class</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 2: Bottom Plug Barge — 3 Nos. — Navy -->
+                <div class="col-lg-4 col-md-6 order-card-col" data-sector="shipbuilding" data-aos="fade-up">
+                    <div class="order-simple-card h-100 p-4">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <span class="badge bg-primary-subtle text-primary border border-primary-subtle px-2 py-1 rounded-pill" style="font-size: 0.78rem;">
+                                <i class="fas fa-ship me-1"></i> Shipbuilding
+                            </span>
+                            <span class="badge bg-warning text-dark fw-bold px-3 py-1 rounded-pill" style="font-size: 0.85rem;">3 Nos.</span>
+                        </div>
+                        <div class="order-icon-wrap">
+                            <i class="fas fa-anchor fa-2x"></i>
+                        </div>
+                        <h4 class="fw-bold text-navy mb-1" style="font-size: 1.25rem;">Bottom Plug Barge</h4>
+                        <div class="text-orange fw-bold mb-3" style="font-size: 0.95rem;">
+                            <i class="fas fa-building-columns me-1"></i> Indian Navy
+                        </div>
+                        <p class="text-secondary mb-3" style="font-size: 0.9rem; line-height: 1.6;">
+                            Custom naval bottom-plug support barges engineered for drydock operations and underwater hull maintenance.
+                        </p>
+                        <div class="mt-auto pt-3 border-top d-flex justify-content-between align-items-center text-muted small">
+                            <span class="text-success fw-semibold"><i class="fas fa-circle-notch fa-spin me-1"></i> In Fabrication</span>
+                            <span>Naval Standard</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 3: LCT / Ferry — 2 Nos. — Private Client -->
+                <div class="col-lg-4 col-md-6 order-card-col" data-sector="shipbuilding" data-aos="fade-up">
+                    <div class="order-simple-card h-100 p-4">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <span class="badge bg-primary-subtle text-primary border border-primary-subtle px-2 py-1 rounded-pill" style="font-size: 0.78rem;">
+                                <i class="fas fa-ship me-1"></i> Shipbuilding
+                            </span>
+                            <span class="badge bg-warning text-dark fw-bold px-3 py-1 rounded-pill" style="font-size: 0.85rem;">2 Nos.</span>
+                        </div>
+                        <div class="order-icon-wrap">
+                            <i class="fas fa-compass fa-2x"></i>
+                        </div>
+                        <h4 class="fw-bold text-navy mb-1" style="font-size: 1.25rem;">LCT / Ferry</h4>
+                        <div class="text-orange fw-bold mb-3" style="font-size: 0.95rem;">
+                            <i class="fas fa-user-tie me-1"></i> Private Client
+                        </div>
+                        <p class="text-secondary mb-3" style="font-size: 0.9rem; line-height: 1.6;">
+                            Landing Craft Transport (LCT) ro-pax ferry vessels engineered for coastal waterways, vehicular transit, and passenger transfer.
+                        </p>
+                        <div class="mt-auto pt-3 border-top d-flex justify-content-between align-items-center text-muted small">
+                            <span class="text-success fw-semibold"><i class="fas fa-circle-notch fa-spin me-1"></i> Block Assembly</span>
+                            <span>Commercial Vessel</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 4: Pontoon 16 × 85 × 3.5 — 1 No. — MDL -->
+                <div class="col-lg-4 col-md-6 order-card-col" data-sector="shipbuilding" data-aos="fade-up" data-aos-delay="50">
+                    <div class="order-simple-card h-100 p-4">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <span class="badge bg-primary-subtle text-primary border border-primary-subtle px-2 py-1 rounded-pill" style="font-size: 0.78rem;">
+                                <i class="fas fa-ship me-1"></i> Shipbuilding
+                            </span>
+                            <span class="badge bg-warning text-dark fw-bold px-3 py-1 rounded-pill" style="font-size: 0.85rem;">1 No.</span>
+                        </div>
+                        <div class="order-icon-wrap">
+                            <i class="fas fa-water fa-2x"></i>
+                        </div>
+                        <h4 class="fw-bold text-navy mb-1" style="font-size: 1.25rem;">Pontoon (16 × 85 × 3.5m)</h4>
+                        <div class="text-orange fw-bold mb-3" style="font-size: 0.95rem;">
+                            <i class="fas fa-award me-1"></i> Mazagon Dock (MDL)
+                        </div>
+                        <p class="text-secondary mb-3" style="font-size: 0.9rem; line-height: 1.6;">
+                            Heavy-capacity 16m × 85m × 3.5m steel pontoon fabricated for Mazagon Dock Shipbuilders marine infrastructure and loadout.
+                        </p>
+                        <div class="mt-auto pt-3 border-top d-flex justify-content-between align-items-center text-muted small">
+                            <span class="text-success fw-semibold"><i class="fas fa-circle-notch fa-spin me-1"></i> In Fabrication</span>
+                            <span>MDL Specification</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 5: Subsea Cage — 9 Nos. — MDL / ONGC -->
+                <div class="col-lg-4 col-md-6 order-card-col" data-sector="heavy-eng" data-aos="fade-up" data-aos-delay="50">
+                    <div class="order-simple-card h-100 p-4">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <span class="badge bg-warning-subtle text-warning-emphasis border border-warning-subtle px-2 py-1 rounded-pill" style="font-size: 0.78rem;">
+                                <i class="fas fa-industry me-1"></i> Heavy Engineering
+                            </span>
+                            <span class="badge bg-warning text-dark fw-bold px-3 py-1 rounded-pill" style="font-size: 0.85rem;">9 Nos.</span>
+                        </div>
+                        <div class="order-icon-wrap">
+                            <i class="fas fa-cubes fa-2x"></i>
+                        </div>
+                        <h4 class="fw-bold text-navy mb-1" style="font-size: 1.25rem;">Subsea Cage</h4>
+                        <div class="text-orange fw-bold mb-3" style="font-size: 0.95rem;">
+                            <i class="fas fa-oil-well me-1"></i> MDL / ONGC
+                        </div>
+                        <p class="text-secondary mb-3" style="font-size: 0.9rem; line-height: 1.6;">
+                            Heavy-gauge subsea protection cages fabricated for offshore deepwater pipeline installations and subsea asset protection.
+                        </p>
+                        <div class="mt-auto pt-3 border-top d-flex justify-content-between align-items-center text-muted small">
+                            <span class="text-success fw-semibold"><i class="fas fa-circle-notch fa-spin me-1"></i> Testing &amp; NDT</span>
+                            <span>Offshore Code</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 6: Lifeboats — 1 Set — Offshore Client -->
+                <div class="col-lg-4 col-md-6 order-card-col" data-sector="heavy-eng" data-aos="fade-up" data-aos-delay="50">
+                    <div class="order-simple-card h-100 p-4">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <span class="badge bg-warning-subtle text-warning-emphasis border border-warning-subtle px-2 py-1 rounded-pill" style="font-size: 0.78rem;">
+                                <i class="fas fa-industry me-1"></i> Heavy Engineering
+                            </span>
+                            <span class="badge bg-warning text-dark fw-bold px-3 py-1 rounded-pill" style="font-size: 0.85rem;">1 Set</span>
+                        </div>
+                        <div class="order-icon-wrap">
+                            <i class="fas fa-life-ring fa-2x"></i>
+                        </div>
+                        <h4 class="fw-bold text-navy mb-1" style="font-size: 1.25rem;">Lifeboats &amp; Davits</h4>
+                        <div class="text-orange fw-bold mb-3" style="font-size: 0.95rem;">
+                            <i class="fas fa-shield-alt me-1"></i> Offshore &amp; Marine Client
+                        </div>
+                        <p class="text-secondary mb-3" style="font-size: 0.9rem; line-height: 1.6;">
+                            Certified marine lifeboat station assemblies and heavy-duty offshore deployment davit handling systems.
+                        </p>
+                        <div class="mt-auto pt-3 border-top d-flex justify-content-between align-items-center text-muted small">
+                            <span class="text-success fw-semibold"><i class="fas fa-circle-notch fa-spin me-1"></i> Outfitting</span>
+                            <span>SOLAS Compliant</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 7: Power Plant Equipment — 1 Set -->
+                <div class="col-lg-4 col-md-6 order-card-col" data-sector="heavy-eng" data-aos="fade-up" data-aos-delay="100">
+                    <div class="order-simple-card h-100 p-4">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <span class="badge bg-warning-subtle text-warning-emphasis border border-warning-subtle px-2 py-1 rounded-pill" style="font-size: 0.78rem;">
+                                <i class="fas fa-industry me-1"></i> Heavy Engineering
+                            </span>
+                            <span class="badge bg-warning text-dark fw-bold px-3 py-1 rounded-pill" style="font-size: 0.85rem;">1 Set</span>
+                        </div>
+                        <div class="order-icon-wrap">
+                            <i class="fas fa-bolt fa-2x"></i>
+                        </div>
+                        <h4 class="fw-bold text-navy mb-1" style="font-size: 1.25rem;">Power Plant Equipment</h4>
+                        <div class="text-orange fw-bold mb-3" style="font-size: 0.95rem;">
+                            <i class="fas fa-plug-circle-bolt me-1"></i> Power Plant EPC
+                        </div>
+                        <p class="text-secondary mb-3" style="font-size: 0.9rem; line-height: 1.6;">
+                            Heavy industrial structural modules, duct assemblies, and balance-of-plant equipment engineered for thermal power utilities.
+                        </p>
+                        <div class="mt-auto pt-3 border-top d-flex justify-content-between align-items-center text-muted small">
+                            <span class="text-success fw-semibold"><i class="fas fa-circle-notch fa-spin me-1"></i> Fabrication</span>
+                            <span>Heavy Industrial</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 8: Duct Power Plant (ACC Ducts) — 1 Set -->
+                <div class="col-lg-4 col-md-6 order-card-col" data-sector="heavy-eng" data-aos="fade-up" data-aos-delay="100">
+                    <div class="order-simple-card h-100 p-4">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <span class="badge bg-warning-subtle text-warning-emphasis border border-warning-subtle px-2 py-1 rounded-pill" style="font-size: 0.78rem;">
+                                <i class="fas fa-industry me-1"></i> Heavy Engineering
+                            </span>
+                            <span class="badge bg-warning text-dark fw-bold px-3 py-1 rounded-pill" style="font-size: 0.85rem;">1 Set</span>
+                        </div>
+                        <div class="order-icon-wrap">
+                            <i class="fas fa-wind fa-2x"></i>
+                        </div>
+                        <h4 class="fw-bold text-navy mb-1" style="font-size: 1.25rem;">Duct Power Plant (ACC Ducts)</h4>
+                        <div class="text-orange fw-bold mb-3" style="font-size: 0.95rem;">
+                            <i class="fas fa-industry me-1"></i> Power Sector Client
+                        </div>
+                        <p class="text-secondary mb-3" style="font-size: 0.9rem; line-height: 1.6;">
+                            Specialized Air Cooled Condenser (ACC) ducting systems and exhaust structures fabricated for thermal power generation plants.
+                        </p>
+                        <div class="mt-auto pt-3 border-top d-flex justify-content-between align-items-center text-muted small">
+                            <span class="text-success fw-semibold"><i class="fas fa-circle-notch fa-spin me-1"></i> Welding &amp; NDT</span>
+                            <span>Power Sector</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 9: Power Plant Items — 1 Set — BHEL -->
+                <div class="col-lg-4 col-md-6 order-card-col" data-sector="heavy-eng" data-aos="fade-up" data-aos-delay="100">
+                    <div class="order-simple-card h-100 p-4">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <span class="badge bg-warning-subtle text-warning-emphasis border border-warning-subtle px-2 py-1 rounded-pill" style="font-size: 0.78rem;">
+                                <i class="fas fa-industry me-1"></i> Heavy Engineering
+                            </span>
+                            <span class="badge bg-warning text-dark fw-bold px-3 py-1 rounded-pill" style="font-size: 0.85rem;">1 Set</span>
+                        </div>
+                        <div class="order-icon-wrap">
+                            <i class="fas fa-cogs fa-2x"></i>
+                        </div>
+                        <h4 class="fw-bold text-navy mb-1" style="font-size: 1.25rem;">Power Plant Items</h4>
+                        <div class="text-orange fw-bold mb-3" style="font-size: 0.95rem;">
+                            <i class="fas fa-bolt me-1"></i> BHEL
+                        </div>
+                        <p class="text-secondary mb-3" style="font-size: 0.9rem; line-height: 1.6;">
+                            High-precision power generation fabrication items, large diameter ducting, and structural components manufactured for BHEL.
+                        </p>
+                        <div class="mt-auto pt-3 border-top d-flex justify-content-between align-items-center text-muted small">
+                            <span class="text-success fw-semibold"><i class="fas fa-circle-notch fa-spin me-1"></i> In Fabrication</span>
+                            <span>BHEL Approved</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Trust & Quality Assurance Ribbon -->
+            <div class="order-trust-strip" data-aos="fade-up" data-aos-delay="50">
+                <div class="row align-items-center">
+                    <div class="col-lg-8">
+                        <div class="d-flex align-items-center mb-2">
+                            <span class="badge bg-warning text-dark me-2 px-3 py-1 fw-bold">Guaranteed Capacity</span>
+                            <span class="text-white-50 small">Drydock Availability &amp; Precision Execution</span>
+                        </div>
+                        <h4 class="text-white fw-bold mb-2">Certified Manufacturing Excellence Across Global Standards</h4>
+                        <p class="text-white-50 mb-3 small" style="max-width: 650px;">
+                            SPPL's waterfront shipyards and heavy fabrication facilities are fully compliant with stringent international classification societies, defense procurement benchmarks, and energy sector codes.
+                        </p>
+                        <div class="d-flex flex-wrap">
+                            <span class="order-cert-pill"><i class="fas fa-check-circle"></i> IRS Certified</span>
+                            <span class="order-cert-pill"><i class="fas fa-check-circle"></i> Bureau Veritas (BV)</span>
+                            <span class="order-cert-pill"><i class="fas fa-check-circle"></i> ASME 'U' &amp; 'U2'</span>
+                            <span class="order-cert-pill"><i class="fas fa-check-circle"></i> ISO 9001:2015</span>
+                            <span class="order-cert-pill"><i class="fas fa-check-circle"></i> ISO 14001 &amp; 45001</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 text-lg-end mt-4 mt-lg-0 d-flex flex-column align-items-lg-end align-items-center justify-content-center gap-3">
+                        <a href="contact.html" class="order-trust-btn order-trust-btn-primary shadow">
+                            <i class="fas fa-file-signature me-2"></i>Inquire Capacity
+                        </a>
+                        <a href="projects.html" class="order-trust-btn order-trust-btn-secondary">
+                            <i class="fas fa-images me-2"></i>Project Gallery
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Driving Force Section -->
+    <section class="section-padding bg-light" id="director-profile">
+        <div class="container text-center">
+            <h2 class="section-title mb-5" data-aos="fade-up">Driving force of SPPL</h2>
+            <div class="row g-4 justify-content-center">
+                <!-- Director 1 -->
+                <div class="col-lg-5 col-md-6" data-aos="fade-up">
+                    <div class="gallery-item overflow-hidden rounded shadow-sm bg-white p-4 h-100 d-flex flex-column align-items-center"
+                        data-bs-toggle="modal" data-bs-target="#directorModal1"
+                        style="cursor: pointer; transition: transform 0.3s ease;">
+                        <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
+                            alt="Mr. S. Ghoshal" class="img-fluid rounded-circle mb-4" loading="lazy" decoding="async"
+                            style="width: 180px; height: 180px; object-fit: cover;">
+                        <h4 class="text-navy mb-1">Mr. S. Ghoshal</h4>
+                        <p class="text-orange mb-3 text-center">Managing Director &amp; Founder</p>
+                        <button class="btn btn-sm btn-outline-primary mt-auto rounded-pill px-4">View Profile</button>
+                    </div>
+                </div>
+
+                <!-- Director 2 -->
+                <div class="col-lg-5 col-md-6" data-aos="fade-up" data-aos-delay="50">
+                    <div class="gallery-item overflow-hidden rounded shadow-sm bg-white p-4 h-100 d-flex flex-column align-items-center"
+                        data-bs-toggle="modal" data-bs-target="#directorModal2"
+                        style="cursor: pointer; transition: transform 0.3s ease;">
+                        <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
+                            alt="Mr. Deep Ghoshal" class="img-fluid rounded-circle mb-4" loading="lazy" decoding="async"
+                            style="width: 180px; height: 180px; object-fit: cover;">
+                        <h4 class="text-navy mb-1">Mr. Deep Ghoshal</h4>
+                        <p class="text-orange mb-3 text-center">Director — Projects &amp; Planning</p>
+                        <button class="btn btn-sm btn-outline-primary mt-auto rounded-pill px-4">View Profile</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Director Modal 1 -->
+    <div class="modal fade" id="directorModal1" tabindex="-1" aria-labelledby="directorModalLabel1" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered">
+            <div class="modal-content"
+                style="border-radius: 20px; border: none; overflow: hidden; background-color: #ffffff;">
+                <div class="modal-body p-0">
+                    <button type="button" class="btn-close position-absolute top-0 end-0 m-4 z-3"
+                        data-bs-dismiss="modal" aria-label="Close"
+                        style="background-color: white; border-radius: 50%; padding: 0.5rem; opacity: 1; box-shadow: 0 2px 10px rgba(0,0,0,0.1); width: 35px; height: 35px;"></button>
+                    <div class="row g-0">
+                        <div class="col-md-5">
+                            <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                                alt="Mr. S. Ghoshal" class="img-fluid w-100 h-100" loading="lazy" decoding="async"
+                                style="object-fit: cover; border-top-left-radius: 20px; border-bottom-left-radius: 20px; min-height: 400px;">
+                        </div>
+                        <div class="col-md-7 d-flex align-items-center">
+                            <div class="p-5 text-start">
+                                <h3 class="text-navy mb-1" id="directorModalLabel1">Mr. S. Ghoshal</h3>
+                                <p class="text-orange mb-4">Managing Director &amp; Founder</p>
+                                <p class="text-secondary" style="font-size: 0.95rem; line-height: 1.6;">
+                                    Mr. S. Ghoshal is a qualified engineer with a 20-year long tenure with India's finest engineering co: M/s L &amp; T. With a vast experience in engineering, he founded Suryadipta Projects Pvt. Ltd. [SPPL] in 1996 for Heavy Engineering Solutions, Offshore &amp; Shipbuilding. Under his visionary guidance, the Group has consistently strengthened its manufacturing footprint, delivering complex mega-projects across defense, maritime, and heavy infrastructure sectors.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Director Modal 2 -->
+    <div class="modal fade" id="directorModal2" tabindex="-1" aria-labelledby="directorModalLabel2" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered">
+            <div class="modal-content"
+                style="border-radius: 20px; border: none; overflow: hidden; background-color: #ffffff;">
+                <div class="modal-body p-0">
+                    <button type="button" class="btn-close position-absolute top-0 end-0 m-4 z-3"
+                        data-bs-dismiss="modal" aria-label="Close"
+                        style="background-color: white; border-radius: 50%; padding: 0.5rem; opacity: 1; box-shadow: 0 2px 10px rgba(0,0,0,0.1); width: 35px; height: 35px;"></button>
+                    <div class="row g-0">
+                        <div class="col-md-5">
+                            <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                                alt="Mr. Deep Ghoshal" class="img-fluid w-100 h-100" loading="lazy" decoding="async"
+                                style="object-fit: cover; border-top-left-radius: 20px; border-bottom-left-radius: 20px; min-height: 400px;">
+                        </div>
+                        <div class="col-md-7 d-flex align-items-center">
+                            <div class="p-5 text-start">
+                                <h3 class="text-navy mb-1" id="directorModalLabel2">Mr. Deep Ghoshal</h3>
+                                <p class="text-orange mb-4">Director — Projects &amp; Planning</p>
+                                <p class="text-secondary" style="font-size: 0.95rem; line-height: 1.6;">
+                                    Mr. Deep Ghoshal joined SPPL. He is a BE Mech &amp; an MBA in marketing &amp; HR. He looks after the day-to-day production &amp; planning, managing both the fabrication sites of heavy engineering &amp; Shipbuilding. His dynamic management and operational leadership drive SPPL's continuous modernization, precision manufacturing, and on-schedule delivery across all client contracts.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <h2 class="text-white m-0 mb-4 fw-bold">SPPL</h2>
+                    <p style="color: var(--c-steel-grey-light);">Suryadipta Projects Pvt. Ltd. is a leading heavy
+                        engineering and shipbuilding corporation dedicated to executing mega projects with unmatched
+                        precision, quality, and scale.</p>
+                    <div class="mt-4">
+                        <a href="#" class="text-white me-3 fs-5" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="text-white me-3 fs-5" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-white fs-5" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-6">
+                    <h4 class="footer-heading">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="infrastructure.html">Infrastructure</a></li>
+                        <li><a href="shipbuilding.html">Shipbuilding</a></li>
+                        <li><a href="heavy-engineering.html">Heavy Engineering</a></li>
+                        <li><a href="projects.html">Project Gallery</a></li>
+                        <li><a href="contact.html">Reach Us</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="footer-heading">Core Expertise</h4>
+                    <ul class="footer-links">
+                        <li><a href="shipbuilding.html#defence">Defence Vessels</a></li>
+                        <li><a href="shipbuilding.html#commercial">Commercial Ships</a></li>
+                        <li><a href="heavy-engineering.html#heavy-fabrication">Heavy Fabrication</a></li>
+                        <li><a href="heavy-engineering.html#offshore-fabrication">Offshore Platforms</a></li>
+                        <li><a href="heavy-engineering.html#tanks-vessels">Tanks &amp; Pressure Vessels</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="footer-heading">Contact Us</h4>
+                    <ul class="footer-links">
+                        <li class="d-flex mb-3">
+                            <i class="fas fa-map-marker-alt text-orange mt-1 me-3"></i>
+                            <span style="color: var(--c-steel-grey-light);">Uttam House, 3rd Floor, Plot No. 69, P D'Mello Road, Mumbai â€“ 400 009</span>
+                        </li>
+                        <li class="d-flex mb-3">
+                            <i class="fas fa-phone-alt text-orange mt-1 me-3"></i>
+                            <span style="color: var(--c-steel-grey-light);">+91 22 4058 7300</span>
+                        </li>
+                        <li class="d-flex mb-3">
+                            <i class="fas fa-envelope text-orange mt-1 me-3"></i>
+                            <span style="color: var(--c-steel-grey-light);">info.sppl@sppl.com</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p class="mb-0">&copy; 2026 Suryadipta Projects Pvt. Ltd. (SPPL). All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top -->
+    <div class="scroll-top">
+        <i class="fas fa-chevron-up"></i>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

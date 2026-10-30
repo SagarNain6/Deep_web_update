@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="SPPL Projects Portfolio - Explore our mega-projects across Defence, Marine, and Infrastructure sectors.">
+    <title>Project Gallery | SPPL</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Topbar -->
+    <div class="header-top d-none d-lg-block">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <span class="me-3"><i class="fas fa-envelope text-orange me-2"></i> info@sppl.com</span>
+                    <span><i class="fas fa-phone-alt text-orange me-2"></i> +91 98765 43210</span>
+                </div>
+                <div class="col-md-6 text-end">
+                    <a href="careers.html" class="me-3">Careers</a>
+                    <a href="media.html" class="me-3">Media</a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" class="ms-2"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-xl navbar-light sticky-top">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="index.html">
+                <img src="images/logo/logo.webp" alt="SPPL Logo" height="40" class="me-2">
+                <span class="navbar-brand-text">
+                    <span class="d-block">Suryadipta Projects</span>
+                    <span class="d-block">Private Limited</span>
+                </span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-xl-center">
+                    <li class="nav-item"><a class="nav-link " href="index.html">Home</a></li>
+
+                    <!-- Corporate -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle " href="about.html" id="aboutDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">About Us</a>
+                        <ul class="dropdown-menu" aria-labelledby="aboutDropdown">
+                            <li><a class="dropdown-item dropdown-overview" href="about.html"><i
+                                        class="fas fa-building me-2"></i>About Overview</a></li>
+                            <li>
+                                <hr class="dropdown-divider my-1">
+                            </li>
+                            <li><a class="dropdown-item" href="about.html#director-profile">Director Profile</a></li>
+                            <li><a class="dropdown-item" href="about.html#sppl-journey">SPPL Journey</a></li>
+                            <li><a class="dropdown-item" href="about.html#order-book">Current Order Book</a></li>
+                            <li>
+                                <hr class="dropdown-divider my-1">
+                            </li>
+                            <li><a class="dropdown-item" href="quality.html">Quality & Safety</a></li>
+                            <li><a class="dropdown-item" href="media.html">Media Room</a></li>
+                            <li><a class="dropdown-item" href="careers.html">Careers</a></li>
+                        </ul>
+                    </li>
+
+                    <!-- Infrastructure -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle " href="infrastructure.html" id="infraDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">Infrastructure</a>
+                        <ul class="dropdown-menu" aria-labelledby="infraDropdown">
+                            <li><a class="dropdown-item dropdown-overview" href="infrastructure.html"><i
+                                        class="fas fa-industry me-2"></i>Infra Overview</a></li>
+                            <li>
+                                <hr class="dropdown-divider my-1">
+                            </li>
+                            <li><a class="dropdown-item" href="infrastructure.html#shipyard">Shipyard</a></li>
+                            <li><a class="dropdown-item" href="infrastructure.html#heavy-fabrication-yard">Heavy
+                                    Fabrication Yard</a></li>
+                            <li><a class="dropdown-item" href="infrastructure.html#future-expansion">Future
+                                    Expansion</a></li>
+                        </ul>
+                    </li>
+
+                    <!-- Shipbuilding -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle " href="shipbuilding.html" id="shipbuildingDropdown"
+                            role="button" data-bs-toggle="dropdown" aria-expanded="false">Shipbuilding</a>
+                        <ul class="dropdown-menu" aria-labelledby="shipbuildingDropdown">
+                            <li><a class="dropdown-item dropdown-overview" href="shipbuilding.html"><i
+                                        class="fas fa-ship me-2"></i>Shipbuilding Overview</a></li>
+                            <li>
+                                <hr class="dropdown-divider my-1">
+                            </li>
+                            <li><a class="dropdown-item" href="shipbuilding.html#defence">Defence Vessels</a></li>
+                            <li><a class="dropdown-item" href="shipbuilding.html#commercial">Commercial Vessels</a></li>
+                        </ul>
+                    </li>
+
+                    <!-- Heavy Engineering -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle " href="heavy-engineering.html" id="heavyEngDropdown"
+                            role="button" data-bs-toggle="dropdown" aria-expanded="false">Heavy Engineering</a>
+                        <ul class="dropdown-menu" aria-labelledby="heavyEngDropdown">
+                            <li><a class="dropdown-item dropdown-overview" href="heavy-engineering.html"><i
+                                        class="fas fa-cogs me-2"></i>Heavy Eng. Overview</a></li>
+                            <li>
+                                <hr class="dropdown-divider my-1">
+                            </li>
+                            <li><a class="dropdown-item" href="heavy-engineering.html#heavy-fabrication">Heavy
+                                    Fabrication</a></li>
+                            <li><a class="dropdown-item" href="heavy-engineering.html#offshore-fabrication">Offshore
+                                    Fabrication</a></li>
+                            <li><a class="dropdown-item" href="heavy-engineering.html#tanks-vessels">Tanks &amp;
+                                    Vessels</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item"><a class="nav-link active" href="projects.html">Project Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link " href="contact.html">Reach Us</a></li>
+                </ul>
+                <a href="contact.html" class="btn btn-primary-custom ms-xl-3 d-none d-xl-inline-flex">Inquire Now</a>
+                <div class="mobile-inquire-btn">
+                    <a href="contact.html" class="btn btn-primary-custom w-100">Inquire Now <i
+                            class="fas fa-arrow-right ms-2"></i></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header bg-navy text-white text-center py-5" style="background-color: var(--c-navy-blue);">
+        <div class="container py-5">
+            <span class="badge bg-warning text-dark fw-bold px-3 py-1 mb-3 rounded-pill">Verified Track Record</span>
+            <h1 class="display-4 fw-bold text-white">Delivered Vessels &amp; Projects</h1>
+            <p class="lead max-w-700 mx-auto" style="color: var(--c-steel-grey-light);">
+                Proven execution record of 30+ specialized marine vessels, naval defense assets, and heavy engineering structures delivered to premier defense and infrastructure clients.
+            </p>
+        </div>
+    </section>
+
+    <!-- Key Manufacturing Metrics Strip -->
+    <section class="py-4" style="background-color: #0d1b33; border-bottom: 1px solid rgba(255, 192, 0, 0.2);">
+        <div class="container">
+            <div class="row text-center g-3 text-white">
+                <div class="col-md-3 col-6">
+                    <div class="fw-bold fs-3 text-warning">30+</div>
+                    <div class="small text-white-50">Vessels &amp; Barges Built</div>
+                </div>
+                <div class="col-md-3 col-6">
+                    <div class="fw-bold fs-3 text-warning">11 Nos.</div>
+                    <div class="small text-white-50">Indian Navy ACTCM Series</div>
+                </div>
+                <div class="col-md-3 col-6">
+                    <div class="fw-bold fs-3 text-warning">100%</div>
+                    <div class="small text-white-50">IRS &amp; Classification Society Compliance</div>
+                </div>
+                <div class="col-md-3 col-6">
+                    <div class="fw-bold fs-3 text-warning">1500 DWT</div>
+                    <div class="small text-white-50">Max Barge Capacity Fabricated</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 1: Featured Flagship Deliveries -->
+    <section class="section-padding bg-light">
+        <div class="container">
+            <div class="text-center mb-5" data-aos="fade-up">
+                <h2 class="section-title mb-3">Featured Landmark Deliveries</h2>
+                <p class="text-secondary max-w-700 mx-auto" style="font-size: 1.05rem;">
+                    Key highlighted contracts showcasing our engineering precision across defense vessels, modular jack-ups, survey launches, and heavy offshore barges.
+                </p>
+            </div>
+
+            <div class="row g-4">
+                <!-- Card 1: Indian Navy ACTCM Barges -->
+                <div class="col-lg-4 col-md-6" data-aos="fade-up">
+                    <div class="order-simple-card h-100 p-4">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <span class="badge bg-primary-subtle text-primary border border-primary-subtle px-2 py-1 rounded-pill" style="font-size: 0.78rem;">
+                                <i class="fas fa-shield-alt me-1"></i> Naval Defence
+                            </span>
+                            <span class="badge bg-warning text-dark fw-bold px-3 py-1 rounded-pill" style="font-size: 0.85rem;">11 Nos.</span>
+                        </div>
+                        <div class="order-icon-wrap">
+                            <i class="fas fa-ship fa-2x"></i>
+                        </div>
+                        <span class="yard-badge mb-2 d-inline-block">Yard Y-125 to Y-135</span>
+                        <h4 class="fw-bold text-navy mb-1" style="font-size: 1.25rem;">ACTCM Ammunition Barges</h4>
+                        <div class="text-orange fw-bold mb-3" style="font-size: 0.95rem;">
+                            <i class="fas fa-building-columns me-1"></i> Indian Navy
+                        </div>
+                        <p class="text-secondary mb-3" style="font-size: 0.9rem; line-height: 1.6;">
+                            Series of eleven 9 × 30 meter Ammunition Carrying Hold Barges (ACTCM) engineered to exacting Indian Navy defense specifications with full IRS classification certificates.
+                        </p>
+                        <div class="mt-auto pt-3 border-top d-flex justify-content-between align-items-center text-muted small">
+                            <span class="text-success fw-semibold"><i class="fas fa-check-circle me-1"></i> Delivered 2022–2025</span>
+                            <span class="class-badge irs">IRS Class</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 2: Submarine Simulators -->
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="50">
+                    <div class="order-simple-card h-100 p-4">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <span class="badge bg-primary-subtle text-primary border border-primary-subtle px-2 py-1 rounded-pill" style="font-size: 0.78rem;">
+                                <i class="fas fa-shield-alt me-1"></i> Naval Defence
+                            </span>
+                            <span class="badge bg-warning text-dark fw-bold px-3 py-1 rounded-pill" style="font-size: 0.85rem;">2 Units</span>
+                        </div>
+                        <div class="order-icon-wrap">
+                            <i class="fas fa-anchor fa-2x"></i>
+                        </div>
+                        <span class="yard-badge mb-2 d-inline-block">Yard Y-122 &amp; Y-123</span>
+                        <h4 class="fw-bold text-navy mb-1" style="font-size: 1.25rem;">Submarine Simulators</h4>
+                        <div class="text-orange fw-bold mb-3" style="font-size: 0.95rem;">
+                            <i class="fas fa-building-columns me-1"></i> INS Vishwakarma / Indian Navy
+                        </div>
+                        <p class="text-secondary mb-3" style="font-size: 0.9rem; line-height: 1.6;">
+                            24m Fire Fighting and 17m Damage Control Submarine Simulators manufactured via Joseph Leslie Dynamix for operational submariner training at INS Vishwakarma.
+                        </p>
+                        <div class="mt-auto pt-3 border-top d-flex justify-content-between align-items-center text-muted small">
+                            <span class="text-success fw-semibold"><i class="fas fa-check-circle me-1"></i> Commissioned 2023</span>
+                            <span class="class-badge irs">Navy Class</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 3: Mazagon Dock 30 Pax Work Boat -->
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="order-simple-card h-100 p-4">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <span class="badge bg-primary-subtle text-primary border border-primary-subtle px-2 py-1 rounded-pill" style="font-size: 0.78rem;">
+                                <i class="fas fa-ship me-1"></i> Commercial &amp; Workboat
+                            </span>
+                            <span class="badge bg-warning text-dark fw-bold px-3 py-1 rounded-pill" style="font-size: 0.85rem;">30 Pax</span>
+                        </div>
+                        <div class="order-icon-wrap">
+                            <i class="fas fa-compass fa-2x"></i>
+                        </div>
+                        <span class="yard-badge mb-2 d-inline-block">Yard Y-140</span>
+                        <h4 class="fw-bold text-navy mb-1" style="font-size: 1.25rem;">30 Pax Ferry Cum Work Boat</h4>
+                        <div class="text-orange fw-bold mb-3" style="font-size: 0.95rem;">
+                            <i class="fas fa-building me-1"></i> Mazagon Dock Shipbuilders (MDL)
+                        </div>
+                        <p class="text-secondary mb-3" style="font-size: 0.9rem; line-height: 1.6;">
+                            High-maneuverability 30-passenger ferry cum harbor workboat equipped with twin 400 HP main propulsion engines built under IRS classification.
+                        </p>
+                        <div class="mt-auto pt-3 border-top d-flex justify-content-between align-items-center text-muted small">
+                            <span class="text-success fw-semibold"><i class="fas fa-check-circle me-1"></i> Delivered 2025</span>
+                            <span class="class-badge irs">IRS Class</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 4: 44m Self-Elevating Jack-up Barge -->
+                <div class="col-lg-4 col-md-6" data-aos="fade-up">
+                    <div class="order-simple-card h-100 p-4">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <span class="badge bg-warning-subtle text-warning-emphasis border border-warning-subtle px-2 py-1 rounded-pill" style="font-size: 0.78rem;">
+                                <i class="fas fa-industry me-1"></i> Marine Infrastructure
+                            </span>
+                            <span class="badge bg-warning text-dark fw-bold px-3 py-1 rounded-pill" style="font-size: 0.85rem;">44m Jack-up</span>
+                        </div>
+                        <div class="order-icon-wrap">
+                            <i class="fas fa-cubes fa-2x"></i>
+                        </div>
+                        <span class="yard-badge mb-2 d-inline-block">Yard Y-111 &amp; Y-114</span>
+                        <h4 class="fw-bold text-navy mb-1" style="font-size: 1.25rem;">Self-Elevating Jack-up Barge</h4>
+                        <div class="text-orange fw-bold mb-3" style="font-size: 0.95rem;">
+                            <i class="fas fa-water me-1"></i> Coastal Marine Construction Ltd
+                        </div>
+                        <p class="text-secondary mb-3" style="font-size: 0.9rem; line-height: 1.6;">
+                            14 × 44m heavy jack-up barge with 4 nos. 55-meter spud pipes, alongside 18 × 18m jack-up rig with 36m legs engineered for coastal marine construction.
+                        </p>
+                        <div class="mt-auto pt-3 border-top d-flex justify-content-between align-items-center text-muted small">
+                            <span class="text-success fw-semibold"><i class="fas fa-check-circle me-1"></i> Delivered 2018</span>
+                            <span class="class-badge irs">IRS Class</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 5: Afcons 400 MT Modular Crane Barge -->
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="50">
+                    <div class="order-simple-card h-100 p-4">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <span class="badge bg-warning-subtle text-warning-emphasis border border-warning-subtle px-2 py-1 rounded-pill" style="font-size: 0.78rem;">
+                                <i class="fas fa-industry me-1"></i> Heavy Engineering
+                            </span>
+                            <span class="badge bg-warning text-dark fw-bold px-3 py-1 rounded-pill" style="font-size: 0.85rem;">400 MT Crane</span>
+                        </div>
+                        <div class="order-icon-wrap">
+                            <i class="fas fa-crane fa-2x"></i>
+                        </div>
+                        <span class="yard-badge mb-2 d-inline-block">Yard Y-115 &amp; Y-119</span>
+                        <h4 class="fw-bold text-navy mb-1" style="font-size: 1.25rem;">Modular Crane Barge &amp; Pontoons</h4>
+                        <div class="text-orange fw-bold mb-3" style="font-size: 0.95rem;">
+                            <i class="fas fa-building me-1"></i> AFCONS / MKC Infra Ltd
+                        </div>
+                        <p class="text-secondary mb-3" style="font-size: 0.9rem; line-height: 1.6;">
+                            20 × 50m Modular crane barge engineered to withstand crawler cranes up to 400 MT capacity, and 10 × 22m modular pontoon for Delhi–Vadodara infrastructure.
+                        </p>
+                        <div class="mt-auto pt-3 border-top d-flex justify-content-between align-items-center text-muted small">
+                            <span class="text-success fw-semibold"><i class="fas fa-check-circle me-1"></i> Delivered 2020–2021</span>
+                            <span class="class-badge irs">IRS Class</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 6: Hydrographic Survey Launches -->
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="order-simple-card h-100 p-4">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <span class="badge bg-primary-subtle text-primary border border-primary-subtle px-2 py-1 rounded-pill" style="font-size: 0.78rem;">
+                                <i class="fas fa-ship me-1"></i> Survey Fleet
+                            </span>
+                            <span class="badge bg-warning text-dark fw-bold px-3 py-1 rounded-pill" style="font-size: 0.85rem;">3 Vessels</span>
+                        </div>
+                        <div class="order-icon-wrap">
+                            <i class="fas fa-satellite-dish fa-2x"></i>
+                        </div>
+                        <span class="yard-badge mb-2 d-inline-block">Yard Y-104, Y-105, Y-106</span>
+                        <h4 class="fw-bold text-navy mb-1" style="font-size: 1.25rem;">Hydrographic Survey Launches</h4>
+                        <div class="text-orange fw-bold mb-3" style="font-size: 0.95rem;">
+                            <i class="fas fa-landmark me-1"></i> Maharashtra Maritime Board (MMB)
+                        </div>
+                        <p class="text-secondary mb-3" style="font-size: 0.9rem; line-height: 1.6;">
+                            18m, 19m, and 20m state-of-the-art Hydrography Survey Launches outfitted with ODOM echo sounders and specialized hydrographic surveying electronics.
+                        </p>
+                        <div class="mt-auto pt-3 border-top d-flex justify-content-between align-items-center text-muted small">
+                            <span class="text-success fw-semibold"><i class="fas fa-check-circle me-1"></i> Delivered 2015</span>
+                            <span class="class-badge irs">IRS Class</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 2: Complete Official Manufacturing Track Record Table -->
+    <section class="section-padding bg-white" id="vessel-database">
+        <div class="container">
+            <div class="d-flex flex-column flex-lg-row justify-content-between align-items-lg-center mb-4" data-aos="fade-up">
+                <div>
+                    <h2 class="section-title mb-2">Official Vessel Manufacturing Track Record</h2>
+                    <p class="text-secondary mb-0">Certified historical database of all vessels and marine structures manufactured and delivered by SPPL.</p>
+                </div>
+                <!-- Live Search Box -->
+                <div class="mt-3 mt-lg-0" style="min-width: 320px;">
+                    <div class="input-group shadow-sm">
+                        <span class="input-group-text bg-white border-end-0 text-muted"><i class="fas fa-search"></i></span>
+                        <input type="text" id="vesselSearchInput" class="form-control border-start-0 ps-0" placeholder="Search Yard No, Client (Navy, MDL, Afcons), Type...">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Table Container -->
+            <div class="track-record-card" data-aos="fade-up">
+                <div class="track-record-table-wrap">
+                    <table class="table track-record-table" id="vesselTrackRecordTable">
+                        <thead>
+                            <tr>
+                                <th>Yard No.</th>
+                                <th>Vessel Type &amp; Contract</th>
+                                <th>Client / Employer</th>
+                                <th>Technical Specification &amp; Dimensions</th>
+                                <th>Delivery</th>
+                                <th>Class / Certificate</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- Y-104 -->
+                            <tr>
+                                <td><span class="yard-badge">Y-104</span></td>
+                                <td>
+                                    <div class="vessel-type-title">Survey Launch (18m)</div>
+                                    <div class="vessel-spec-sub">PO: MMB/CEO/MECS/SURVEY LAUNCH/743</div>
+                                </td>
+                                <td><span class="client-tag-badge gov-client"><i class="fas fa-landmark"></i> Maharashtra Maritime Board</span></td>
+                                <td>18 mtr Hydrography Survey Launch with ODOM echo sounder &amp; accessories</td>
+                                <td><strong>2015</strong></td>
+                                <td><span class="class-badge irs"><i class="fas fa-certificate"></i> IRS (BOM15N006-)</span></td>
+                            </tr>
+                            <!-- Y-105 -->
+                            <tr>
+                                <td><span class="yard-badge">Y-105</span></td>
+                                <td>
+                                    <div class="vessel-type-title">Survey Launch (19m)</div>
+                                    <div class="vessel-spec-sub">PO: MMB/CEO/MECS/SURVEY LAUNCH/743</div>
+                                </td>
+                                <td><span class="client-tag-badge gov-client"><i class="fas fa-landmark"></i> Maharashtra Maritime Board</span></td>
+                                <td>19 mtr Hydrography Survey Launch with ODOM echo sounder &amp; accessories</td>
+                                <td><strong>2015</strong></td>
+                                <td><span class="class-badge irs"><i class="fas fa-certificate"></i> IRS (BOM15N007-)</span></td>
+                            </tr>
+                            <!-- Y-106 -->
+                            <tr>
+                                <td><span class="yard-badge">Y-106</span></td>
+                                <td>
+                                    <div class="vessel-type-title">Survey Launch (20m)</div>
+                                    <div class="vessel-spec-sub">PO: MMB/CEO/MECS/SURVEY LAUNCH/743</div>
+                                </td>
+                                <td><span class="client-tag-badge gov-client"><i class="fas fa-landmark"></i> Maharashtra Maritime Board</span></td>
+                                <td>20 mtr Hydrography Survey Launch with ODOM echo sounder &amp; accessories</td>
+                                <td><strong>2015</strong></td>
+                                <td><span class="class-badge irs"><i class="fas fa-certificate"></i> IRS (IR NO: 46547)</span></td>
+                            </tr>
+                            <!-- Y-107, 108 -->
+                            <tr>
+                                <td><span class="yard-badge">Y-107, 108</span></td>
+                                <td>
+                                    <div class="vessel-type-title">Grab Dredger — 2 Nos.</div>
+                                    <div class="vessel-spec-sub">PO: MMB/MECS/Grab Dredger/IRS/392</div>
+                                </td>
+                                <td><span class="client-tag-badge gov-client"><i class="fas fa-landmark"></i> Maharashtra Maritime Board</span></td>
+                                <td>30 Mtr Grab Dredger, installed with TFC-280 Pedestal mounted Crane &amp; machineries</td>
+                                <td><strong>2018–2019</strong></td>
+                                <td><span class="class-badge irs"><i class="fas fa-certificate"></i> IRS (18236 &amp; BOM19N001)</span></td>
+                            </tr>
+                            <!-- Y-109 -->
+                            <tr>
+                                <td><span class="yard-badge">Y-109</span></td>
+                                <td>
+                                    <div class="vessel-type-title">Fishing Trawler &amp; Training Vessel</div>
+                                    <div class="vessel-spec-sub">PO: MZ 708893</div>
+                                </td>
+                                <td><span class="client-tag-badge gov-client"><i class="fas fa-landmark"></i> Commissioner of Fisheries, Govt. of Maharashtra</span></td>
+                                <td>19 mtr Fishing training vessel equipped with heavy trawling equipment</td>
+                                <td><strong>2016</strong></td>
+                                <td><span class="class-badge"><i class="fas fa-check"></i> CIFT Certified</span></td>
+                            </tr>
+                            <!-- Y-110 -->
+                            <tr>
+                                <td><span class="yard-badge">Y-110</span></td>
+                                <td>
+                                    <div class="vessel-type-title">OBM Work Boat — 3 Nos.</div>
+                                    <div class="vessel-spec-sub">Order with PO 743</div>
+                                </td>
+                                <td><span class="client-tag-badge gov-client"><i class="fas fa-landmark"></i> Maharashtra Maritime Board</span></td>
+                                <td>Fiberglass work boat outfitted with OBM-25 HP propulsion engines</td>
+                                <td><strong>2015</strong></td>
+                                <td><span class="class-badge"><i class="fas fa-check"></i> MMB Certified</span></td>
+                            </tr>
+                            <!-- Y-111 -->
+                            <tr>
+                                <td><span class="yard-badge">Y-111</span></td>
+                                <td>
+                                    <div class="vessel-type-title">44 Mtr Self Elevating Jack-up Barge</div>
+                                    <div class="vessel-spec-sub">PO: CM/INHOUSE/HO/PO/16-17/357 &amp; 358</div>
+                                </td>
+                                <td><span class="client-tag-badge"><i class="fas fa-building"></i> Coastal Marine Construction &amp; Engg.</span></td>
+                                <td>14 × 44 mtr Jack-up barge for marine construction with 4 nos. 55-meter spud pipes</td>
+                                <td><strong>2018</strong></td>
+                                <td><span class="class-badge irs"><i class="fas fa-certificate"></i> IRS Class Certified</span></td>
+                            </tr>
+                            <!-- Y-112 -->
+                            <tr>
+                                <td><span class="yard-badge">Y-112</span></td>
+                                <td>
+                                    <div class="vessel-type-title">Floating Jetty with Aluminium Gangway</div>
+                                    <div class="vessel-spec-sub">PO: 9925/1990/PONTOON/01</div>
+                                </td>
+                                <td><span class="client-tag-badge"><i class="fas fa-building"></i> AFCONS Infra Ltd</span></td>
+                                <td>Heavy steel pontoon with 30-meter long aluminium gangway erected at JNPT harbor</td>
+                                <td><strong>2019</strong></td>
+                                <td><span class="class-badge irs"><i class="fas fa-certificate"></i> IR NO: 63469</span></td>
+                            </tr>
+                            <!-- Y-113 -->
+                            <tr>
+                                <td><span class="yard-badge">Y-113</span></td>
+                                <td>
+                                    <div class="vessel-type-title">50 Pax Passenger Catamaran</div>
+                                    <div class="vessel-spec-sub">Commercial Passenger Ferry</div>
+                                </td>
+                                <td><span class="client-tag-badge"><i class="fas fa-ship"></i> Arabian Ferry Services</span></td>
+                                <td>50 Passenger twin-screw catamaran vessel with capacity for 5 motorbikes</td>
+                                <td><strong>2018</strong></td>
+                                <td><span class="class-badge"><i class="fas fa-check"></i> Passenger Code</span></td>
+                            </tr>
+                            <!-- Y-114 -->
+                            <tr>
+                                <td><span class="yard-badge">Y-114</span></td>
+                                <td>
+                                    <div class="vessel-type-title">Jack-up Barge "Coastal Driller"</div>
+                                    <div class="vessel-spec-sub">PO: IND/INHOUSE/HO/PO/17-18/135</div>
+                                </td>
+                                <td><span class="client-tag-badge"><i class="fas fa-building"></i> Coastal Marine Construction Engg.</span></td>
+                                <td>18 × 18 mtr Jack-up barge with 36-meter leg length for offshore geotechnical drilling</td>
+                                <td><strong>2018</strong></td>
+                                <td><span class="class-badge irs"><i class="fas fa-certificate"></i> IR NO: 61309 (IRS)</span></td>
+                            </tr>
+                            <!-- Y-115 -->
+                            <tr>
+                                <td><span class="yard-badge">Y-115</span></td>
+                                <td>
+                                    <div class="vessel-type-title">20 × 50m Modular Heavy Crane Barge</div>
+                                    <div class="vessel-spec-sub">PO: 9925/PUR/GAP/MB/01</div>
+                                </td>
+                                <td><span class="client-tag-badge"><i class="fas fa-building"></i> Afcons Infrastructure Ltd</span></td>
+                                <td>Modular heavy crane barge engineered to support crane capacities up to 400 MT</td>
+                                <td><strong>2020</strong></td>
+                                <td><span class="class-badge irs"><i class="fas fa-certificate"></i> BOM20N002 (IRS)</span></td>
+                            </tr>
+                            <!-- Y-116 -->
+                            <tr>
+                                <td><span class="yard-badge">Y-116</span></td>
+                                <td>
+                                    <div class="vessel-type-title">Ferry Boat — 100 Pax RORO</div>
+                                    <div class="vessel-spec-sub">PO: SPPL/GORAI-2018/19</div>
+                                </td>
+                                <td><span class="client-tag-badge gov-client"><i class="fas fa-users"></i> Gorai Machimar Society</span></td>
+                                <td>100 Passenger RORO vessel with dedicated deck space for 4 cars and 10 bikes</td>
+                                <td><strong>2019</strong></td>
+                                <td><span class="class-badge"><i class="fas fa-certificate"></i> MMB Reg: BDR-IV-02218</span></td>
+                            </tr>
+                            <!-- Y-117 -->
+                            <tr>
+                                <td><span class="yard-badge">Y-117</span></td>
+                                <td>
+                                    <div class="vessel-type-title">SPS Class Crew Boat (27m)</div>
+                                    <div class="vessel-spec-sub">PO: SDS/SPPL/PO/CB27/27032019</div>
+                                </td>
+                                <td><span class="client-tag-badge"><i class="fas fa-oil-well"></i> SDS Offshore Pvt Ltd</span></td>
+                                <td>27 mtr international-going Crew Boat built to SPS-Code with 50 Pax capacity</td>
+                                <td><strong>2022</strong></td>
+                                <td><span class="class-badge irs"><i class="fas fa-certificate"></i> NC/002391/2021100527</span></td>
+                            </tr>
+                            <!-- Y-118 -->
+                            <tr>
+                                <td><span class="yard-badge">Y-118</span></td>
+                                <td>
+                                    <div class="vessel-type-title">Ferry Boat — 100 Pax RORO</div>
+                                    <div class="vessel-spec-sub">PO: Manori Kholi Mandal</div>
+                                </td>
+                                <td><span class="client-tag-badge gov-client"><i class="fas fa-users"></i> Manori Gramasth Mandal</span></td>
+                                <td>100 Passenger RORO ferry with vehicle cargo capacity for 4 cars and 50 bikes</td>
+                                <td><strong>2020</strong></td>
+                                <td><span class="class-badge"><i class="fas fa-certificate"></i> MMB Reg: BND329</span></td>
+                            </tr>
+                            <!-- Y-119 -->
+                            <tr>
+                                <td><span class="yard-badge">Y-119</span></td>
+                                <td>
+                                    <div class="vessel-type-title">Modular Crane Pontoon</div>
+                                    <div class="vessel-spec-sub">PO: MKCIL/DELHI-VADORA/P-19/C-35</div>
+                                </td>
+                                <td><span class="client-tag-badge"><i class="fas fa-road"></i> MKC Infra Ltd (Delhi-Vadodara)</span></td>
+                                <td>10 × 22 Mtr Modular pontoon engineered for 100-ton crane civil bridge construction</td>
+                                <td><strong>2021</strong></td>
+                                <td><span class="class-badge"><i class="fas fa-check"></i> Highway Infra Approved</span></td>
+                            </tr>
+                            <!-- Y-120 -->
+                            <tr>
+                                <td><span class="yard-badge">Y-120</span></td>
+                                <td>
+                                    <div class="vessel-type-title">Modular Jack-up Barge</div>
+                                    <div class="vessel-spec-sub">PO: 3100018256/1</div>
+                                </td>
+                                <td><span class="client-tag-badge"><i class="fas fa-building"></i> GR Infra Projects Ltd</span></td>
+                                <td>18 × 24 Mtr Modular Jackup Barge outfitted with 36-meter heavy spud pipes</td>
+                                <td><strong>2022</strong></td>
+                                <td><span class="class-badge irs"><i class="fas fa-certificate"></i> RAJ020622577410000846</span></td>
+                            </tr>
+                            <!-- Y-121 -->
+                            <tr>
+                                <td><span class="yard-badge">Y-121</span></td>
+                                <td>
+                                    <div class="vessel-type-title">Modular Jack-up Barge</div>
+                                    <div class="vessel-spec-sub">PO: 3100018256/1</div>
+                                </td>
+                                <td><span class="client-tag-badge"><i class="fas fa-building"></i> GR Infra Projects Ltd</span></td>
+                                <td>18 × 24 Mtr Modular Jackup Barge outfitted with 36-meter heavy spud pipes</td>
+                                <td><strong>2023</strong></td>
+                                <td><span class="class-badge irs"><i class="fas fa-certificate"></i> kaj050123577410000022</span></td>
+                            </tr>
+                            <!-- Y-122 -->
+                            <tr>
+                                <td><span class="yard-badge">Y-122</span></td>
+                                <td>
+                                    <div class="vessel-type-title">Fire Fighting Submarine Simulator</div>
+                                    <div class="vessel-spec-sub">PO: FFS/PO/0004/2122</div>
+                                </td>
+                                <td><span class="client-tag-badge navy-client"><i class="fas fa-shield-alt"></i> Joseph Leslie Dynamix / INS Vishwakarma</span></td>
+                                <td>24 mtr Fire Fighting Submarine Simulator manufactured for the Indian Navy</td>
+                                <td><strong>2023</strong></td>
+                                <td><span class="class-badge irs"><i class="fas fa-certificate"></i> VKM23X111 (Navy Cert)</span></td>
+                            </tr>
+                            <!-- Y-123 -->
+                            <tr>
+                                <td><span class="yard-badge">Y-123</span></td>
+                                <td>
+                                    <div class="vessel-type-title">Damage Control Submarine Simulator</div>
+                                    <div class="vessel-spec-sub">PO: DCS/PO/0010/2122</div>
+                                </td>
+                                <td><span class="client-tag-badge navy-client"><i class="fas fa-shield-alt"></i> Joseph Leslie Dynamix / INS Vishwakarma</span></td>
+                                <td>17 mtr Damage Control Submarine Simulator manufactured for the Indian Navy</td>
+                                <td><strong>2023</strong></td>
+                                <td><span class="class-badge irs"><i class="fas fa-certificate"></i> VKM23X115 (Navy Cert)</span></td>
+                            </tr>
+                            <!-- Y-125 to Y-135: ACTCM Barges -->
+                            <tr>
+                                <td><span class="yard-badge">Y-125 to 135</span></td>
+                                <td>
+                                    <div class="vessel-type-title">ACTCM Barge Series — 11 Nos.</div>
+                                    <div class="vessel-spec-sub">PO: 472/DSP/C/20-21/ACTCM</div>
+                                </td>
+                                <td><span class="client-tag-badge navy-client"><i class="fas fa-shield-alt"></i> Indian Navy</span></td>
+                                <td>Series of 11 Nos. 9 × 30 mtr Ammunition Carrying Hold Barges (ACTCM) for fleet maintenance</td>
+                                <td><strong>2023–2025</strong></td>
+                                <td><span class="class-badge irs"><i class="fas fa-certificate"></i> IRS (Multiple BOM Crt.)</span></td>
+                            </tr>
+                            <!-- Y-136 -->
+                            <tr>
+                                <td><span class="yard-badge">Y-136</span></td>
+                                <td>
+                                    <div class="vessel-type-title">Flat Top Barge (500 DWT)</div>
+                                    <div class="vessel-spec-sub">PO: 5400004295</div>
+                                </td>
+                                <td><span class="client-tag-badge"><i class="fas fa-building"></i> Afcons Infrastructure Ltd</span></td>
+                                <td>12 × 36 mtr, 500 DWT Flat Top Deck Cargo Barge</td>
+                                <td><strong>2022</strong></td>
+                                <td><span class="class-badge irs"><i class="fas fa-certificate"></i> SPPL/027/22-23</span></td>
+                            </tr>
+                            <!-- Y-137 -->
+                            <tr>
+                                <td><span class="yard-badge">Y-137</span></td>
+                                <td>
+                                    <div class="vessel-type-title">Flat Top Barge (500 DWT)</div>
+                                    <div class="vessel-spec-sub">PO: 5400004295</div>
+                                </td>
+                                <td><span class="client-tag-badge"><i class="fas fa-building"></i> Afcons Infrastructure Ltd</span></td>
+                                <td>12 × 36 mtr, 500 DWT Flat Top Deck Cargo Barge</td>
+                                <td><strong>2022</strong></td>
+                                <td><span class="class-badge irs"><i class="fas fa-certificate"></i> SPPL/029/22-23</span></td>
+                            </tr>
+                            <!-- Y-138 -->
+                            <tr>
+                                <td><span class="yard-badge">Y-138</span></td>
+                                <td>
+                                    <div class="vessel-type-title">Flat Top Ocean Barge (1500 DWT)</div>
+                                    <div class="vessel-spec-sub">PO: PO/APCO/22-23/VBSL PROJECT</div>
+                                </td>
+                                <td><span class="client-tag-badge"><i class="fas fa-building"></i> APCO Infratech Ltd</span></td>
+                                <td>18 × 50 mtr, 1500 DWT Heavy Flat Top Ocean Barge for coastal infrastructure</td>
+                                <td><strong>2023</strong></td>
+                                <td><span class="class-badge irs"><i class="fas fa-certificate"></i> BOM23N011 (IRS)</span></td>
+                            </tr>
+                            <!-- Y-139 -->
+                            <tr>
+                                <td><span class="yard-badge">Y-139</span></td>
+                                <td>
+                                    <div class="vessel-type-title">Flat Top Ocean Barge (1500 DWT)</div>
+                                    <div class="vessel-spec-sub">PO: PO/APCO/22-23/VBSL PROJECT</div>
+                                </td>
+                                <td><span class="client-tag-badge"><i class="fas fa-building"></i> APCO Infratech Ltd</span></td>
+                                <td>18 × 50 mtr, 1500 DWT Heavy Flat Top Ocean Barge for coastal infrastructure</td>
+                                <td><strong>2023</strong></td>
+                                <td><span class="class-badge irs"><i class="fas fa-certificate"></i> BOM23N033 (IRS)</span></td>
+                            </tr>
+                            <!-- Y-140 -->
+                            <tr>
+                                <td><span class="yard-badge">Y-140</span></td>
+                                <td>
+                                    <div class="vessel-type-title">30 Pax Ferry Cum Work Boat</div>
+                                    <div class="vessel-spec-sub">PO: 3020002320</div>
+                                </td>
+                                <td><span class="client-tag-badge navy-client"><i class="fas fa-ship"></i> Mazagon Dock Shipbuilders (MDL)</span></td>
+                                <td>30 Pax passenger ferry cum harbor work boat outfitted with twin 400 HP main engines under IRS class</td>
+                                <td><strong>2025</strong></td>
+                                <td><span class="class-badge irs"><i class="fas fa-certificate"></i> BOM23N028 (IRS)</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <h2 class="text-white m-0 mb-4 fw-bold">SPPL</h2>
+                    <p style="color: var(--c-steel-grey-light);">Suryadipta Projects Pvt. Ltd. is a leading heavy
+                        engineering and shipbuilding corporation dedicated to executing mega projects with unmatched
+                        precision, quality, and scale.</p>
+                    <div class="mt-4">
+                        <a href="#" class="text-white me-3 fs-5" aria-label="LinkedIn"><i
+                                class="fab fa-linkedin"></i></a>
+                        <a href="#" class="text-white me-3 fs-5" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-white fs-5" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-6">
+                    <h4 class="footer-heading">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="infrastructure.html">Infrastructure</a></li>
+                        <li><a href="shipbuilding.html">Shipbuilding</a></li>
+                        <li><a href="heavy-engineering.html">Heavy Engineering</a></li>
+                        <li><a href="projects.html">Project Gallery</a></li>
+                        <li><a href="contact.html">Reach Us</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="footer-heading">Core Expertise</h4>
+                    <ul class="footer-links">
+                        <li><a href="shipbuilding.html#defence">Defence Vessels</a></li>
+                        <li><a href="shipbuilding.html#commercial">Commercial Ships</a></li>
+                        <li><a href="heavy-engineering.html#heavy-fabrication">Heavy Fabrication</a></li>
+                        <li><a href="heavy-engineering.html#offshore-fabrication">Offshore Platforms</a></li>
+                        <li><a href="heavy-engineering.html#tanks-vessels">Tanks &amp; Pressure Vessels</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="footer-heading">Contact Us</h4>
+                    <ul class="footer-links">
+                        <li class="d-flex mb-3">
+                            <i class="fas fa-map-marker-alt text-orange mt-1 me-3"></i>
+                            <span style="color: var(--c-steel-grey-light);">Uttam House, 3rd Floor, Plot No. 69, P
+                                D'Mello Road, Mumbai â€“ 400 009</span>
+                        </li>
+                        <li class="d-flex mb-3">
+                            <i class="fas fa-phone-alt text-orange mt-1 me-3"></i>
+                            <span style="color: var(--c-steel-grey-light);">+91 22 4058 7300</span>
+                        </li>
+                        <li class="d-flex mb-3">
+                            <i class="fas fa-envelope text-orange mt-1 me-3"></i>
+                            <span style="color: var(--c-steel-grey-light);">info.sppl@sppl.com</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p class="mb-0">&copy; 2026 Suryadipta Projects Pvt. Ltd. (SPPL). All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top -->
+    <div class="scroll-top">
+        <i class="fas fa-chevron-up"></i>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        // Tab styling script to ensure custom colors on active pills
+        document.querySelectorAll('.nav-pills .nav-link').forEach(link => {
+            link.addEventListener('click', function () {
+                document.querySelectorAll('.nav-pills .nav-link').forEach(l => {
+                    l.style.backgroundColor = 'transparent';
+                    l.style.color = 'var(--c-navy-blue)';
+                });
+                this.style.backgroundColor = 'var(--c-industrial-orange)';
+                this.style.color = 'white';
+            });
+        });
+        // Set initial active state
+        const activeTab = document.querySelector('.nav-pills .nav-link.active');
+        if (activeTab) {
+            activeTab.style.backgroundColor = 'var(--c-industrial-orange)';
+            activeTab.style.color = 'white';
+        }
+    </script>
+</body>
+
+</html>
