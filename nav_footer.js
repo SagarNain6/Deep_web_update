@@ -61,7 +61,6 @@ const getNavbar = (activePage) => `
                         <ul class="dropdown-menu" aria-labelledby="infraDropdown">
                             <li><a class="dropdown-item" href="infrastructure.html#shipyard">Shipyard</a></li>
                             <li><a class="dropdown-item" href="infrastructure.html#heavy-fabrication-yard">Heavy Fabrication Yard</a></li>
-                            <li><a class="dropdown-item" href="infrastructure.html#future-expansion">Future Expansion</a></li>
                         </ul>
                     </li>
 
